@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap");
+
+body {
+  font-family: "Fira Mono", monospace;
+  background-image: url("https://i.imgur.com/pYv5TF3.gif");
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  margin: 40px 60px 10px 60px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  padding: 25px 35px;
+}
+
+.cabecalho {
+  margin: 10px 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: row:
+}
+
+.fotoPerfil {
+  border-style: groove;
+  border-color: white;
+  border-radius: 460px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 25px;
+}
+
+.botao {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 100px;
+  border: 2px solid #F7F7F7;
+  font-weight: 500;
+  font-size:20px;
+  padding: 8px 10px;
+}
+
+button:hover{
+  backdrop-filter: invert(95%);
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 28px;
+}
+  
+.titulo img{
+  max-height: 30px;
+}
+
+.titulo ul, li{
+  display: inline;
+  list-style: none;
+  padding-left: 0;
+}
+
+.main {
+  margin-top: 20px;  
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 35px;
+}
+
+.projetos {
+  border-style: groove;
+  border-color: white;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  color: white;
+  width: 80%
+}
+
+.conquistas {
+  border-style: groove;
+  border-color: white;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 30px;
+  color: white;
+  width: 15%;
+}
+
+.conquistas img{
+  max-height: 95px;
+}
+
+.tabelaTitulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.tabelaItens {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+.tabelaItens p {
+  text-decoration: none;
+}
+
+.conquistasTitulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.conquistasItens {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 30px;
+  padding-top: 38px;
+  height: 150px;
+}
+
+
+
+/* Modo Claro */
+.light .container {
+background-color: rgba(236, 244, 255, 0.5);
+backdrop-filter: blur(8px);
+box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+} 
+
+.light .fotoPerfil {
+  border-color: black;
+}
+
+.light .titulo {
+ color: #1C1C1C; 
+}
+
+.light .botao {
+  background-color: rgba(236, 244, 255, 0.5);
+  color: #1C1C1C;  
+  border: 2px solid #0E1D2F;
+}
+
+.light .projetos {
+  border-color: black;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.light .conquistas {
+  border-color: black;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+
+
+/*   backdrop-filter: blur(2px); */
